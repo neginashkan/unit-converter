@@ -1,0 +1,64 @@
+body {
+  background-color: #1f2937;
+  font-family: "Inter";
+}
+h1 {
+  font-style: normal;
+  font-size: 28px;
+  line-height: 38px;
+}
+input {
+  background-color: #6943ff;
+  width: 25%;
+  height: 83px;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 58px;
+  line-height: 24px;
+}
+input,
+h1 {
+  font-weight: 800;
+}
+h2 {
+  color: #ccc1ff;
+}
+p,
+h1,
+input {
+  color: #ffffff;
+}
+button {
+  padding: 9px 27px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3d3d3d;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  background: #ffffff;
+cursor: pointer;
+transition: all 200ms ease-in-out;
+}
+button:hover{
+    outline: none;
+    color:#ffffff;
+    background:  #3d3d3d ;
+
+}
+button,
+input {
+  outline: none;
+}
+.bg-color {
+  background-color: #6943ff;
+}
+.bg-style {
+  background-color: #273549;
+  padding: 31px 77px 18px;
+  margin-bottom: 3em;
+
+}
